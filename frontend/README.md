@@ -1,4 +1,14 @@
 # React + Vite
+## Deployment
+
+When deploying the frontend separately from the backend, set `VITE_API_BASE` to your backend URL (e.g. `https://cineratre-backend.onrender.com`).
+
+Example:
+
+```bash
+VITE_API_BASE=https://your-backend.example.com npm run build
+```
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
